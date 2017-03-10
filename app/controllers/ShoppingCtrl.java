@@ -90,7 +90,7 @@ if(customer.getBasket()==null) {
 
 @Transactional
  
-public Result addOne(Long item.find.byId(itemId);
+public Result addOne(Long itemId) {
 
 //get the order item
 OrderItem item = OrderItem.find.byId(itemId);
@@ -149,8 +149,12 @@ for(OrderItem i; order.getItems()) {
 
  return ok(orderConfirmed.render(c, order));
 
+  }
+
+
+
+  }
+
+
 }
 
-
-
-}

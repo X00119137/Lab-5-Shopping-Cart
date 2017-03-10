@@ -40,6 +40,7 @@ public class Basket extends Model {
 }
 
 
+
 }
   if(itemFoud == false) {
    //add orderitem to list
@@ -122,7 +123,7 @@ for (Iterator<OrderItem> iter = basketItems.iterator(); iter.hasNext();) {
                 }             
             }
 
-   }
+   
 
-}
+
 
